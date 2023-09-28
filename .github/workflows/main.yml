@@ -11,8 +11,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.repository }}
-          ref: main/8a9f6d5
+          ref: 264ceba36928c707cb67017e2954630d12813fde
 
       - name: Setup java
         uses: actions/setup-java@v1
